@@ -1,10 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-
-export interface Cat {
-  name: string;
-}
+import { Cat } from './cat';
 
 @Injectable({
   providedIn: 'root'

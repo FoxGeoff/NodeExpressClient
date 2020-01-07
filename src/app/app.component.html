@@ -1,3 +1,6 @@
 <div>
   <button mat-raised-button color="accent" class="button">Test</button>
 </div>
+<ul>
+  <li *ngFor="let cat of cats | async">{{cat.name}}</li>
+</ul>
